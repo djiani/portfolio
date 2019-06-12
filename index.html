@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+  <script src="https://kit.fontawesome.com/cd0ee41369.js"></script>
+  <link rel="stylesheet" href="./css/style.css">
+  <script src="./js/app.js"></script>
+</head>
+
+<body>
+
+  <div class="container-fluid">
+    <div class="masterHeader">
+      <div class="container">
+        <div class=" masterHead_block text-center animated bounceInDown">
+          <div class=" masterHead_title">
+            <h1 class="blog-title animated flipInX delay-1s">Hello, I'm Samuel Djiani</h1>
+            <p class="lead blog-description mt-4 mb-4 animated flipInX delay-2s">I'm a Full Stack Web Developer</p>
+          </div>
+          <div class="">
+            <a href="#portfolio " class="btn btn-light mt-4 ">Views my works <span style=" color: Tomato;"><i
+                class="fas fa-angle-double-right animated bounce infinite"></i> </span></a>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+    <a class="navbar-brand" href="#">Logo</a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#">About Me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+
+      </ul>
+    </div>
+  </nav>
+
+
+  <div class="section " id="aboutMe">
+    <div class="container">
+      <div class="section_header ">About me</div>
+      <div class="section_header_bar "></div>
+      <div class="row">
+        <div class="col-sm-6 col-md-3">
+          <div class="hex-wrap">
+            <div class="hexagon">
+              <i class="fas fa-dragon fa-3x"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3"></div>
+        <div class="col-sm-6 col-md-3"></div>
+        <div class="col-sm-6 col-md-3"></div>
+      </div>
+      <div class="wrapper">
+        <img src="sam_profile.png" alt="" class="star">
+        <p> Since a young age, creativity, innovation, and learning new technology has always been important to
+          me;
+          coding and problem solving are my passion. I love to challenge myself on innovative and interesting
+          projects
+          and it is always satisfying to see ideas come to life.
+          I consider myself to be very self-disciplined, optimistic, and detailed-oriented. I enjoy outdoors
+          adventures,
+          new discoveries, and sports events.</p>
+      </div>
+      <div class="clearfix "></div>
+
+    </div>
+  </div>
+  <!--    Portfolio   -->
+  <div class="section flex" id="portfolio">
+    <div class="container">
+      <div class="section_header ">PROJECTS</div>
+      <div class="section_header_bar "></div>
+      <div id="myBtnContainer">
+          <button class="btn1 active" onclick="filterSelection('all')"> All</button>
+          <button class="btn1" onclick="filterSelection('javascript')"> Javascript</button>
+          <button class="btn1" onclick="filterSelection('nodejs')"> NodeJS</button>
+          <button class="btn1" onclick="filterSelection('react')"> React</button>
+      </div>
+      <!-- Portfolio Gallery Grid -->
+<div class="row">
+    <div class="column javascript " data-index="1">
+      <div class="content">
+        <img src="./images/friendFinder.png" alt="friend Finder" style="width:100%">
+        <h4>FriendFinder</h4>
+        <div class="project_des show1">
+          <h6>FriendFinder</h6>
+          <p><span>HTML5, CSS, Bootstrap, JQuery </span>
+            <span>Nodejs, Express</span>
+          </p>
+          <div class="btn2 d-inline-flex"><a  href="https://loving-spence-e18248.netlify.com">views</a></div>
+          <div class="btn2 d-inline-flex"><a  href="https://github.com/djiani/myfavoritemeal_client">github</a></div>
+          
+          <button class="btn2 ">Learn More >></button>
+        </div>
+      </div>
+    </div>
+    <div class="column javascript" data-index="2">
+      <div class="content">
+        <img src="./images/eventlocalizer.png" alt="Lights" style="width:100%">
+        <h4>EventLocalizer</h4>
+        <div class="project_des show2">
+            <h5>Technologies Used:</h5>
+            <p >Html5, CSS, Bootstrap, AJAX, JQuery, Open-Api</p>
+            <a href="https://djiani.github.io/EventLocalizer/">Live</a>, 
+            <a href="https://github.com/djiani/EventLocalizer">source code</a>
+            <button>Learn More >></button>
+        </div>
+      </div>
+    </div>
+    <div class="column javascript">
+      <div class="content">
+        <img src="./images/eventlocalizer.png" alt="Nature" style="width:100%">
+        <h4>EventLocalizer</h4>
+        <div class="project_des">
+            <h4>EventLocalizer</h4>
+            <h5>Technologies Used:</h5>
+            <p >Html5, CSS, Bootstrap, AJAX, JQuery, Open-Api</p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="column nodejs">
+      <div class="content">
+        <img src="./images/univprof.png" alt="Car" style="width:100%">
+        <h4>Cam Research</h4>
+        <div class="project_des">
+            <h4>Cam Research</h4>
+            <h5>Technologies Used:</h5>
+            <p class="list_tech">
+              <span>Html5, CSS, Bootstrap, JQuery, </span>
+              <span>Nodejs, Express</span>
+              <span>Mongodb, </span>
+              <span>Mocha/Chai, </span>
+              <span>AWS-S3 </span>
+            </p>
+        </div>
+      </div>
+    </div>
+    <div class="column nodejs">
+      <div class="content">
+        <img src="./images/univprof.png" alt="Car" style="width:100%">
+        <h4>Cam Research</h4>
+        <div class="project_des">
+            <h4>Cam Research</h4>
+            <h5>Technologies Used:</h5>
+            <p class="list_tech">
+              <span>Html5, CSS, Bootstrap, JQuery, </span>
+              <span>Nodejs, Express</span>
+              <span>Mongodb, </span>
+              <span>Mocha/Chai, </span>
+              <span>AWS-S3 </span>
+            </p>
+        </div>
+      </div>
+    </div>
+    <div class="column nodejs">
+      <div class="content">
+        <img src="./images/univprof.png" alt="Car" style="width:100%">
+        <h4>Cam Research</h4>
+        <div class="project_des">
+            <h4>Cam Research</h4>
+            <h5>Technologies Used:</h5>
+            <p class="list_tech">
+              <span>Html5, CSS, Bootstrap, JQuery, </span>
+              <span>Nodejs, Express</span>
+              <span>Mongodb, </span>
+              <span>Mocha/Chai, </span>
+              <span>AWS-S3 </span>
+            </p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="column react">
+      <div class="content">
+        <img src="./images/myfavoritemeal.png" alt="People" style="width:100%">
+        <h4>MyFavoriteMeal</h4>
+        <div class="project_des">
+            <h4>MyFavoriteMeal</h4>
+            <p><span> HTML5, CSS, Bootstrap, JQuery, </span>
+              <span>React/Redux, </span>
+              <span>Nodejs, Express</span>
+              <span>Mongodb, </span>
+              <span>Mocha/Chai, </span>
+              <span>AWS-S3</span>
+            </p>
+        </div>
+      </div>
+    </div>
+    <div class="column react">
+      <div class="content">
+        <img src="./images/myfavoritemeal.png" alt="People" style="width:100%">
+        <h4>MyFavoriteMeal</h4>
+        <div class="project_des">
+            <h4>MyFavoriteMeal</h4>
+            <p><span> HTML5, CSS, Bootstrap, JQuery, </span>
+              <span>React/Redux, </span>
+              <span>Nodejs, Express</span>
+              <span>Mongodb, </span>
+              <span>Mocha/Chai, </span>
+              <span>AWS-S3</span>
+            </p>
+        </div>
+      </div>
+    </div>
+    <div class="column react">
+      <div class="content">
+        <img src="./images/myfavoritemeal.png" alt="People" style="width:100%">
+        <h4>MyFavoriteMeal</h4>
+        <div class="project_des">
+            <h4>MyFavoriteMeal</h4>
+            <p><span> HTML5, CSS, Bootstrap, JQuery, </span>
+              <span>React/Redux, </span>
+              <span>Nodejs, Express</span>
+              <span>Mongodb, </span>
+              <span>Mocha/Chai, </span>
+              <span>AWS-S3</span>
+            </p>
+        </div>
+      </div>
+    </div>
+  <!-- END GRID -->
+  </div>
+     
+
+    </div>
+  </div>
+  <div class="section"></div>
+  <div class="container"></div>
+  </div>
+
+</body>
+
+</html>
