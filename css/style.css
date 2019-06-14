@@ -164,6 +164,11 @@
     position: absolute;
     bottom: 0;
     background-color: chartreuse;
+    height: 40%;
+    width: 100%;
+    overflow: hidden;
+    margin:0 auto;
+    vertical-align: middle;
 
   }
 
@@ -184,7 +189,51 @@
     font-size:40px;
   }
 
+
+  /* Tech skill  here */
+
+  .progress{
+    height: 30px;
+    margin:20px 0;
+    text-align: center;
+  }
+
+  .contact_icon{
+    font-size: 3em;
+    margin: 10px;
+  }
   
+  .contact_icon a{
+    color: #FEFE33;
+  }
+  @media only screen and (max-width:992px){
+    .column{
+      width: 50%;
+    }
+    .masterHead_block{
+      top:35%;
+      left: 15%;
+
+    }
+    .masterHead_title{
+      padding:10px;
+      box-shadow: 8px 8px;
+  }
+  }
+@media only screen and (max-width:578px){
+  .column{
+    width: 100%;
+  }
+  .masterHead_block{
+    top:35%;
+    left: 5%;
+
+  }
+  .masterHead_title{
+    padding:10px;
+    box-shadow: 5px 5px;
+}
+}
 
 
 

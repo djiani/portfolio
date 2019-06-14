@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
   <script src="https://kit.fontawesome.com/cd0ee41369.js"></script>
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="./css/style.css">
   <script src="./js/app.js"></script>
 </head>
@@ -28,16 +29,16 @@
           </div>
           <div class="">
             <a href="#portfolio " class="btn btn-light mt-4 ">Views my works <span style=" color: Tomato;"><i
-                class="fas fa-angle-double-right animated bounce infinite"></i> </span></a>
+                  class="fas fa-angle-double-right animated bounce infinite"></i> </span></a>
           </div>
         </div>
-        
+
       </div>
     </div>
   </div>
 
   <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
-    <a class="navbar-brand" href="#">Logo</a>
+    <a class="navbar-brand" href="#">Samuel Djiani</a>
 
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
       <span class="navbar-toggler-icon"></span>
@@ -45,16 +46,16 @@
     <div class="collapse navbar-collapse" id="collapsibleNavbar">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-          <a class="nav-link" href="#">About Me</a>
+          <a class="nav-link" href="#aboutMe">About Me</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Portfolio</a>
+          <a class="nav-link" href="#portfolio">Portfolio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Skills</a>
+          <a class="nav-link" href="#skills">Skills</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
+          <a class="nav-link" href="#contact">Contact</a>
         </li>
 
       </ul>
@@ -90,264 +91,411 @@
           new discoveries, and sports events.</p>
       </div>
       <div class="clearfix "></div>
-
     </div>
   </div>
+
+
+
+
   <!--    Portfolio   -->
   <div class="section flex" id="portfolio">
     <div class="container">
       <div class="section_header ">PROJECTS</div>
       <div class="section_header_bar "></div>
       <div id="myBtnContainer">
-          <button class="btn1 active" onclick="filterSelection('all')"> All</button>
-          <button class="btn1" onclick="filterSelection('javascript')"> Javascript</button>
-          <button class="btn1" onclick="filterSelection('nodejs')"> NodeJS</button>
-          <button class="btn1" onclick="filterSelection('react')"> React</button>
+        <button class="btn1 active" onclick="filterSelection('all')"> All</button>
+        <button class="btn1" onclick="filterSelection('javascript')"> Javascript</button>
+        <button class="btn1" onclick="filterSelection('nodejs')"> NodeJS</button>
+        <button class="btn1" onclick="filterSelection('react')"> React</button>
       </div>
 
 
       <!-- Portfolio Gallery Grid -->
 
 
-       <!-- React app!-->
-<div class="row">
+      <!-- React app!-->
+      <div class="row">
 
-  <!-- React app!-->
-      <div class="column react" data-index="1">
+        <!-- React app!-->
+        <div class="column react" data-index="1">
           <div class="content">
             <img src="./images/myfavoritemeal.png" alt="cameroun research professor" style="width:100%">
             <div class="project_footer">
-                <h4>MyFavoriteMeal</h4>
-                <p>Sharing your food habits and taste preferences with your friends and community</p>
-                <div class="tech_skill">
-                  Html5, CSS, Bootstrap, JQuery, Nodejs, Express, React/Redux, passport, bcrypt, Mongodb, Mocha/Chai, AWS-S3
-                </div>
+              <h4>MyFavoriteMeal</h4>
+              <p>Sharing your food habits and taste preferences with your friends and community</p>
+              <div class="tech_skill">
+                Html5, CSS, Bootstrap, JQuery, Nodejs, Express, React/Redux, passport, bcrypt, Mongodb, Mocha/Chai,
+                AWS-S3
+              </div>
             </div>
             <div class="project_des show1">
               <h4>MyFavoriteMeal</h4>
-                <div class="project_des_full">
-                    <p>
-                        MyFavoriteMeal is a social platform where user can impact their community and friendship by sharing your food habits and taste preferences
-                    </p>
-                </div>
+              <div class="project_des_full">
+                <p>
+                  MyFavoriteMeal is a social platform where user can impact their community and friendship by sharing
+                  your food habits and taste preferences
+                </p>
+              </div>
               <div class=" d-inline-flex">
-                <a  href="https://loving-spence-e18248.netlify.com" class="mr-4"><span class="icon_img"><i class="fas fa-share-square"></i></span></a>
-                <a  href="https://github.com/djiani/myfavoritemeal_client"><span class="icon_img"><i class="fab fa-github"></i></span></a>
+                <a href="https://loving-spence-e18248.netlify.com" class="mr-4"><span class="icon_img"><i
+                      class="fas fa-share-square"></i></span></a>
+                <a href="https://github.com/djiani/myfavoritemeal_client"><span class="icon_img"><i
+                      class="fab fa-github"></i></span></a>
               </div>
             </div>
           </div>
         </div>
 
 
-     
-    <!-- Node express app!-->
-   
 
-    <!--cam prof -->
-    <div class="column nodejs" data-index="15">
-      <div class="content">
-        <img src="./images/univprof.png" alt="cameroun research professor" style="width:100%">
-        <div class="project_footer">
-            <h4>Cam Research</h4>
-            <p>Promote Cameroonian professors(African professors) researchers</p>
-            <div class="tech_skill">
-              Html5, CSS, Bootstrap, JQuery,Nodejs, Express, Mongodb, Mocha/Chai, AWS-S3
+        <!-- Node express app!-->
+
+
+        <!--cam prof -->
+        <div class="column nodejs" data-index="15">
+          <div class="content">
+            <img src="./images/univprof.png" alt="cameroun research professor" style="width:100%">
+            <div class="project_footer">
+              <h4>Cam Research</h4>
+              <p>Promote Cameroonian professors(African professors) researchers</p>
+              <div class="tech_skill">
+                Html5, CSS, Bootstrap, JQuery,Nodejs, Express, Mongodb, Mocha/Chai, AWS-S3
+              </div>
             </div>
-        </div>
-        <div class="project_des show15">
-          <h4>Cam Research</h4>
-            <div class="project_des_full">
+            <div class="project_des show15">
+              <h4>Cam Research</h4>
+              <div class="project_des_full">
                 <p>
-                    Research Platform is a web platform designed to share and promote
-                    African professors researches. We encourage all professors
-                    regardless of where they're located -- to register on this app by sharing their cv, biography, and a
-                    summary of their research interest/topics.
+                  Research Platform is a web platform designed to share and promote
+                  African professors researches. We encourage all professors
+                  regardless of where they're located -- to register on this app by sharing their cv, biography, and a
+                  summary of their research interest/topics.
                 </p>
+              </div>
+              <div class=" d-inline-flex">
+                <a href="https://guarded-spire-92095.herokuapp.com/" class="mr-4"><span class="icon_img"><i
+                      class="fas fa-share-square"></i></span></a>
+                <a href="https://github.com/djiani/univProf"><span class="icon_img"><i
+                      class="fab fa-github"></i></span></a>
+              </div>
             </div>
-          <div class=" d-inline-flex">
-            <a  href="https://guarded-spire-92095.herokuapp.com/" class="mr-4"><span class="icon_img"><i class="fas fa-share-square"></i></span></a>
-            <a  href="https://github.com/djiani/univProf"><span class="icon_img"><i class="fab fa-github"></i></span></a>
           </div>
         </div>
-      </div>
-    </div>
-  <!--FriendFriend -->
-    <div class="column nodejs" data-index="16">
-        <div class="content">
-          <img src="./images/friendFinder.png" alt="friend Finder" style="width:100%">
-          <div class="project_footer">
+        <!--FriendFriend -->
+        <div class="column nodejs" data-index="16">
+          <div class="content">
+            <img src="./images/friendFinder.png" alt="friend Finder" style="width:100%">
+            <div class="project_footer">
               <h4>FriendFinder</h4>
               <p>Match users compatibility based on a test survey!</p>
               <div class="tech_skill">
-                  Html CSS Bootstrap Javascript JQuery NodeJs Express
-              </div>
-          </div>
-          <div class="project_des show16">
-            <h4>FriendFinder</h4>
-              <div class="project_des_full">
-                     <p>
-                        It is compatibility-based Friend Finder application. Typically, a light version Dating apps. 
-                      This app takes results from your users' surveys, then compare their answers with those from other users. 
-                      The app will then display the name and picture of the user with the best overall match.
-                     </p>
-              </div>
-            <div class=" d-inline-flex">
-              <a  href="https://loving-spence-e18248.netlify.com" class="mr-4"><span class="icon_img"><i class="fas fa-share-square"></i></span></a>
-              <a  href="https://github.com/djiani/FriendFinder"><span class="icon_img"><i class="fab fa-github"></i></span></a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!--Bamazon -->
-    <div class="column nodejs" data-index="17">
-      <div class="content">
-        <img src="./images/bamazon.png" alt="friend Finder" style="width:100%">
-        <div class="project_footer">
-            <h4>Bamazon</h4>
-            <p>e-commerce: Online store to sell goods!</p>
-            <div class="tech_skill">
                 Html CSS Bootstrap Javascript JQuery NodeJs Express
+              </div>
             </div>
-        </div>
-        <div class="project_des show17">
-          <h4>Bamazon</h4>
-            <div class="project_des_full">
-                   <p>
-                      It is compatibility-based Friend Finder application. Typically, a light version Dating apps. 
-                    This app takes results from your users' surveys, then compare their answers with those from other users. 
-                    The app will then display the name and picture of the user with the best overall match.
-                   </p>
+            <div class="project_des show16">
+              <h4>FriendFinder</h4>
+              <div class="project_des_full">
+                <p>
+                  It is compatibility-based Friend Finder application. Typically, a light version Dating apps.
+                  This app takes results from your users' surveys, then compare their answers with those from other
+                  users.
+                  The app will then display the name and picture of the user with the best overall match.
+                </p>
+              </div>
+              <div class=" d-inline-flex">
+                <a href="https://loving-spence-e18248.netlify.com" class="mr-4"><span class="icon_img"><i
+                      class="fas fa-share-square"></i></span></a>
+                <a href="https://github.com/djiani/FriendFinder"><span class="icon_img"><i
+                      class="fab fa-github"></i></span></a>
+              </div>
             </div>
-          <div class=" d-inline-flex">
-            <a  href="https://loving-spence-e18248.netlify.com" class="mr-4"><span class="icon_img"><i class="fas fa-share-square"></i></span></a>
-            <a  href="https://github.com/djiani/FriendFinder"><span class="icon_img"><i class="fab fa-github"></i></span></a>
           </div>
         </div>
-      </div>
-    </div>
 
-    <!--EventLocalizer -->
-      <div class="column nodejs " data-index="18">
-        <div class="content">
-          <img src="./images/eventlocalizer.png" alt="Event Localizer" style="width:100%">
-          <div class="project_footer">
+        <!--Bamazon -->
+        <div class="column nodejs" data-index="17">
+          <div class="content">
+            <img src="./images/bamazon.png" alt="friend Finder" style="width:100%">
+            <div class="project_footer">
+              <h4>Bamazon</h4>
+              <p>e-commerce: Online store to sell goods!</p>
+              <div class="tech_skill">
+                Html CSS Bootstrap Javascript JQuery NodeJs Express
+              </div>
+            </div>
+            <div class="project_des show17">
+              <h4>Bamazon</h4>
+              <div class="project_des_full">
+                <p>
+                  It is compatibility-based Friend Finder application. Typically, a light version Dating apps.
+                  This app takes results from your users' surveys, then compare their answers with those from other
+                  users.
+                  The app will then display the name and picture of the user with the best overall match.
+                </p>
+              </div>
+              <div class=" d-inline-flex">
+                <a href="https://loving-spence-e18248.netlify.com" class="mr-4"><span class="icon_img"><i
+                      class="fas fa-share-square"></i></span></a>
+                <a href="https://github.com/djiani/FriendFinder"><span class="icon_img"><i
+                      class="fab fa-github"></i></span></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--EventLocalizer -->
+        <div class="column nodejs " data-index="18">
+          <div class="content">
+            <img src="./images/eventlocalizer.png" alt="Event Localizer" style="width:100%">
+            <div class="project_footer">
               <h4>EventLocalizer</h4>
               <p>Find all current or upcoming events near you</p>
               <div class="tech_skill">
-                  Html5 CSS Bootstrap Javascript JQuery NodeJs Express, Open-Api
+                Html5 CSS Bootstrap Javascript JQuery NodeJs Express, Open-Api
               </div>
-          </div>
-          <div class="project_des show18">
-            <h4>Eventlocalizer</h4>
+            </div>
+            <div class="project_des show18">
+              <h4>Eventlocalizer</h4>
               <div class="project_des_full">
                 <p>
-                     This app based on Open-api is a social application that help it user to social with it community through events. 
-                     This app allows to find all current or upcomming events in a given location. 
-                  </p>
+                  This app based on Open-api is a social application that help it user to social with it community
+                  through events.
+                  This app allows to find all current or upcomming events in a given location.
+                </p>
               </div>
-            <div class=" d-inline-flex">
-              <a  href="https://djiani.github.io/EventLocalizer/" class="mr-4"><span class="icon_img"><i class="fas fa-share-square"></i></span></a>
-              <a  href="https://github.com/djiani/FriendFinder"><span class="icon_img"><i class="fab fa-github"></i></span></a>
+              <div class=" d-inline-flex">
+                <a href="https://djiani.github.io/EventLocalizer/" class="mr-4"><span class="icon_img"><i
+                      class="fas fa-share-square"></i></span></a>
+                <a href="https://github.com/djiani/FriendFinder"><span class="icon_img"><i
+                      class="fab fa-github"></i></span></a>
+              </div>
             </div>
           </div>
         </div>
-      </div>
 
 
-    <!-- pure Javascript -->
-    <!--CristalGame -->
-      <div class="column javascript " data-index="30">
-        <div class="content">
-          <img src="./images/cristalsGame.jpg" alt="cristal game" style="width:100%">
-          <div class="project_footer">
+        <!-- pure Javascript -->
+        <!--CristalGame -->
+        <div class="column javascript " data-index="30">
+          <div class="content">
+            <img src="./images/cristalsGame.jpg" alt="cristal game" style="width:100%">
+            <div class="project_footer">
               <h4>Cristal Game</h4>
               <p>Could you bit the magic of the cristal!</p>
               <div class="tech_skill">
-                  Html CSS Bootstrap Javascript 
+                Html CSS Bootstrap Javascript
               </div>
-          </div>
-          <div class="project_des show30">
-            <h4>Cristal Game</h4>
+            </div>
+            <div class="project_des show30">
+              <h4>Cristal Game</h4>
               <div class="project_des_full">
-                     <p>
-                        This game consists of beating the cristal magic. You have four cristal which different number hiding from you. 
-                        Could you used the cristals to match the Cristal magic number?
-                     </p>
+                <p>
+                  This game consists of beating the cristal magic. You have four cristal which different number hiding
+                  from you.
+                  Could you used the cristals to match the Cristal magic number?
+                </p>
               </div>
-            <div class=" d-inline-flex">
-              <a  href="" class="mr-4"><span class="icon_img"><i class="fas fa-share-square"></i></span></a>
-              <a  href=""><span class="icon_img"><i class="fab fa-github"></i></span></a>
+              <div class=" d-inline-flex">
+                <a href="" class="mr-4"><span class="icon_img"><i class="fas fa-share-square"></i></span></a>
+                <a href=""><span class="icon_img"><i class="fab fa-github"></i></span></a>
+              </div>
             </div>
           </div>
         </div>
-      </div>
 
-       <!--TrivalGame -->
-      <div class="column javascript " data-index="31">
-        <div class="content">
-          <img src="./images/trivalGame.jpg" alt="trival game" style="width:100%">
-          <div class="project_footer">
+        <!--TrivalGame -->
+        <div class="column javascript " data-index="31">
+          <div class="content">
+            <img src="./images/trivalGame.jpg" alt="trival game" style="width:100%">
+            <div class="project_footer">
               <h4>Trivial Game</h4>
               <p>Trival Game</p>
               <div class="tech_skill">
-                  Html CSS Bootstrap Javascript 
+                Html CSS Bootstrap Javascript
               </div>
-          </div>
-          <div class="project_des show31">
-            <h4>TrivalGame</h4>
+            </div>
+            <div class="project_des show31">
+              <h4>TrivalGame</h4>
               <div class="project_des_full">
-                     <p>
-                        This is multiple questions choice Game which consists of 10 questions and for each quesiton you have 10 seconds
-                    by clicking on the correct answer!
-                     </p>
+                <p>
+                  This is multiple questions choice Game which consists of 10 questions and for each quesiton you have
+                  10 seconds
+                  by clicking on the correct answer!
+                </p>
               </div>
-            <div class=" d-inline-flex">
-              <a  href="" class="mr-4"><span class="icon_img"><i class="fas fa-share-square"></i></span></a>
-              <a  href=""><span class="icon_img"><i class="fab fa-github"></i></span></a>
+              <div class=" d-inline-flex">
+                <a href="" class="mr-4"><span class="icon_img"><i class="fas fa-share-square"></i></span></a>
+                <a href=""><span class="icon_img"><i class="fab fa-github"></i></span></a>
+              </div>
             </div>
           </div>
         </div>
-      </div>
 
-       <!-- World Game -->
-       <div class="column javascript " data-index="32">
-        <div class="content">
-          <img src="./images/wordgame.jpg" alt="word game" style="width:100%">
-          <div class="project_footer">
+        <!-- World Game -->
+        <div class="column javascript " data-index="32">
+          <div class="content">
+            <img src="./images/wordgame.jpg" alt="word game" style="width:100%">
+            <div class="project_footer">
               <h4>Word Game</h4>
               <p>Word Game</p>
               <div class="tech_skill">
-                  Html CSS Bootstrap Javascript JQuery
+                Html CSS Bootstrap Javascript JQuery
               </div>
-          </div>
-          <div class="project_des show32">
-            <h4>Word Game</h4>
+            </div>
+            <div class="project_des show32">
+              <h4>Word Game</h4>
               <div class="project_des_full">
-                     <p>
-                        This Game consists of finding the name of the object hiding on the image. Used the description for help!.
-                     </p>
+                <p>
+                  This Game consists of finding the name of the object hiding on the image. Used the description for
+                  help!.
+                </p>
               </div>
-            <div class=" d-inline-flex">
-              <a  href="" class="mr-4"><span class="icon_img"><i class="fas fa-share-square"></i></span></a>
-              <a  href=""><span class="icon_img"><i class="fab fa-github"></i></span></a>
+              <div class=" d-inline-flex">
+                <a href="" class="mr-4"><span class="icon_img"><i class="fas fa-share-square"></i></span></a>
+                <a href=""><span class="icon_img"><i class="fab fa-github"></i></span></a>
+              </div>
             </div>
           </div>
         </div>
+
       </div>
-
-  
-  <!-- END GRID -->
-  </div>
-     
-
     </div>
   </div>
-  <div class="section"></div>
-  <div class="container"></div>
+
+
+  <!--    skill   -->
+  <div id="skills" class="section">
+    <div class="container">
+      <div class="section_header ">My Tech Skill</div>
+      <div class="section_header_bar "></div>
+
+      <div class="row">
+        <div class="col-12 col-sm-6 col-md-3">
+          <h3>Front End Skills</h3>
+          <div class="progress">
+            <div class="progress-bar" style="width:90%;">HTML5 80%</div>
+          </div>
+          <div class="progress">
+            <div class="progress-bar" style="width:70%;">CSS 70%</div>
+          </div>
+          <div class="progress">
+            <div class="progress-bar" style="width:80%;">Bootstrap 80%</div>
+          </div>
+          <div class="progress">
+            <div class="progress-bar" style="width:85%;">JQuery,AJAX 85%</div>
+          </div>
+          <div class="progress">
+            <div class="progress-bar" style="width:90%;">React 90%</div>
+          </div>
+          <div class="progress">
+            <div class="progress-bar" style="width:60%;">ES6 60%</div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-3">
+          <h3>Back-End Skills</h3>
+          <div class="progress">
+            <div class="progress-bar" style="width:80%;">Restful-API 80%</div>
+          </div>
+          <div class="progress">
+            <div class="progress-bar" style="width:85%;">NodeJs, Express 85%</div>
+          </div>
+          <div class="progress">
+            <div class="progress-bar" style="width:80%;">Mongodb 80%</div>
+          </div>
+          <div class="progress">
+            <div class="progress-bar" style="width:80%;">Mongoose 80%</div>
+          </div>
+          <div class="progress">
+            <div class="progress-bar" style="width:80%;">MySQL 80%</div>
+          </div>
+          <div class="progress">
+            <div class="progress-bar" style="width:80%;">Sequelize 80%</div>
+          </div>
+          <div class="progress">
+            <div class="progress-bar" style="width:80%;">Passport 80%</div>
+          </div>
+          <div class="progress">
+            <div class="progress-bar" style="width:80%;">JWT 80%</div>
+          </div>
+          <div class="progress">
+            <div class="progress-bar" style="width:80%;">Firebase 80%</div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-3">
+          <h3>Deployment and Test </h3>
+          <div class="progress">
+            <div class="progress-bar" style="width:80%;">Git/Github 80%</div>
+          </div>
+          <div class="progress">
+            <div class="progress-bar" style="width:80%;">Jest 80%</div>
+          </div>
+          <div class="progress">
+            <div class="progress-bar" style="width:80%;">Mocha/Chai 80%</div>
+          </div>
+          <div class="progress">
+            <div class="progress-bar" style="width:80%;">Travis CL 80%</div>
+          </div>
+          <div class="progress">
+            <div class="progress-bar" style="width:80%;">Heroku 80%</div>
+          </div>
+          <div class="progress">
+            <div class="progress-bar" style="width:80%;">Netlify 80%</div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-3">
+          <h3>Others Language </h3>
+          <div class="progress">
+            <div class="progress-bar" style="width:80%;">Java 80%</div>
+          </div>
+          <div class="progress">
+            <div class="progress-bar" style="width:80%;">Python 80%</div>
+          </div>
+          <div class="progress">
+            <div class="progress-bar" style="width:80%;">C/C++ 80%</div>
+          </div>
+          <div class="progress">
+            <div class="progress-bar" style="width:80%;">Matlab 80%</div>
+          </div>
+          <div class="progress">
+            <div class="progress-bar" style="width:80%;">R 80%</div>
+          </div>
+          <div class="progress">
+            <div class="progress-bar" style="width:80%;">AWS S3 80%</div>
+          </div>
+          <div class="progress">
+            <div class="progress-bar" style="width:80%;">MySQL 80%</div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
+
+
+
+
+
+  <div id="contact" class="section">
+
+    <div class="container">
+      <div class="section_header ">Contact Me</div>
+      <div class="section_header_bar "></div>
+      <div class="text-center pb-4">
+          <div class="contact_icon d-inline-flex p-md-4 m-4">
+              <a href="mailto:djiasara@gmail.com"><i class="fa fa-envelope-o"></i></a>
+            </div>
+            <div class="contact_icon d-inline-flex p-md-4  m-4">
+              <a href="https://www.linkedin.com/in/samuel-raoul-djiani-0a78b1a2/"><i class="fa fa-linkedin"></i></a>
+            </div>
+            <div class="contact_icon d-inline-flex p-md-4 m-4">
+              <a href="https://github.com/djiani"><i class="fa fa-github "></i></a>
+            </div>
+      </div>
+      
+    </div>
+  </div>
+ 
+
 
 </body>
 
 </html>
-
