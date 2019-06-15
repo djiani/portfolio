@@ -3,8 +3,7 @@
     width: 100vw;
     height: 100vh;
     background: linear-gradient(to top, rgba(20, 136, 204, 0.8), rgba(31, 255, 39, 0.0)), 
-    url("../images/sam_background.png") fixed center center, 
-    url("http://eskipaper.com/auto-backgrounds.html#gal_post_15970_auto-backgrounds-1.jpg") top left;
+    url("../images/sam_background.png") fixed center center;
     background-size: cover !important;
     font-family: 'Poppins', sans-serif !important;
 }
@@ -67,10 +66,21 @@
     width: 70px;
     height: 4px;
     margin: 0 auto;
-    margin-bottom: 100px; 
+    margin-bottom: 50px; 
 
 }
 
+/* about me */
+.aboutmeBlock{
+  float: left;
+  margin: 5px;
+  width: 30%;
+  text-align: center;
+  border:none;
+}
+.aboutmeBlock  .card-header{
+ color: red;
+}
 
 
 .row {
@@ -169,7 +179,6 @@
     overflow: hidden;
     margin:0 auto;
     vertical-align: middle;
-
   }
 
   .btn2{
@@ -177,9 +186,9 @@
       text-align: center;
       display: inline-flex;
       margin: 2px;
-      width: 100px;
-      
+      width: 100px;  
   }
+
   .btn2:hover{
       color: white;
       background-color: #E31B6D
@@ -198,14 +207,31 @@
     text-align: center;
   }
 
-  .contact_icon{
-    font-size: 3em;
-    margin: 10px;
+  .contact_list{
+    padding-bottom: 40px;
   }
-  
-  .contact_icon a{
+
+  .contact_icon{
+    font-size:45px;
     color: #FEFE33;
   }
+  
+  .contact_block{
+    padding: 5px;
+    background-color: white;
+    margin:10px;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+  }
+  
+
+  .contact_block:hover{
+    background-color: red;
+    animation-iteration-count: infinite;
+    
+  }
+
   @media only screen and (max-width:992px){
     .column{
       width: 50%;
@@ -213,13 +239,12 @@
     .masterHead_block{
       top:35%;
       left: 15%;
-
     }
     .masterHead_title{
       padding:10px;
       box-shadow: 8px 8px;
   }
-  }
+}
 @media only screen and (max-width:578px){
   .column{
     width: 100%;
@@ -232,7 +257,7 @@
   .masterHead_title{
     padding:10px;
     box-shadow: 5px 5px;
-}
+  }
 }
 
 

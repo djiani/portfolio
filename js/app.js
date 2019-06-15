@@ -17,9 +17,20 @@ $(".column").hover(function(event){
     $(".show"+index).toggle("fade");
 });
 
+var file = new File(["foo"], "foo.txt", {
+  type: "text/plain",
+});
+
+
+
 })
 
-
+function writeTextFile(txtFile, output)
+{
+  console.log('about to write to file!')
+  txtFile.writeln(output);
+  txtFile.close();
+}
 
 
 
