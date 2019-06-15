@@ -3,7 +3,7 @@ $(document).ready(function(){
 
 // Add active class to the current button (highlight it)
 var btnContainer = document.getElementById("myBtnContainer");
-var btns = btnContainer.getElementsByClassName("btn");
+var btns = btnContainer.getElementsByClassName("btn1");
 for (var i = 0; i < btns.length; i++) {
   btns[i].addEventListener("click", function(){
     var current = document.getElementsByClassName("active");
@@ -16,21 +16,47 @@ $(".column").hover(function(event){
     const index= $(this).attr("data-index");
     $(".show"+index).toggle("fade");
 });
+const menuBar = ["aboutMe", "portfolio", "skills", "contact" ]
+$(".aboutMe").click(function(event){
+  menuBar.map(function(menu){
+    $("."+menu).removeClass("active");
+  })
+  $(this).addClass("active");
+})
 
-var file = new File(["foo"], "foo.txt", {
-  type: "text/plain",
-});
+$(".portfolio").click(function(event){
+  menuBar.map(function(menu){
+    $("."+menu).removeClass("active");
+  })
+  $(this).addClass("active");
+})
+
+$(".skills").click(function(event){
+  menuBar.map(function(menu){
+    $("."+menu).removeClass("active");
+  })
+  $(this).addClass("active");
+})
+
+$(".contact").click(function(event){
+  menuBar.map(function(menu){
+    $("."+menu).removeClass("active");
+  })
+  $(this).addClass("active");
+})
+
+$(".brandMenu").click(function(event){
+  menuBar.map(function(menu){
+    $("."+menu).removeClass("active");
+  })
+})
+
 
 
 
 })
 
-function writeTextFile(txtFile, output)
-{
-  console.log('about to write to file!')
-  txtFile.writeln(output);
-  txtFile.close();
-}
+
 
 
 
