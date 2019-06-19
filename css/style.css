@@ -32,8 +32,10 @@
 }
 
 .wrapper{
-  padding: 20px 10px;
+  padding: 40px 10px;
   background-image: linear-gradient(yellow, green);
+  min-height: 230px;
+  margin-bottom: 20px;
 }
 
 #myBtnContainer{
@@ -71,7 +73,7 @@
 .aboutmeBlock{
   float: left;
   margin: 5px auto;
-  width: 30%;
+  width: 32%;
   height: 200px;
   padding: 0;
   overflow: hidden;
@@ -81,9 +83,10 @@
   box-shadow: 2px 2px red;
 }
 .aboutmeBlock  .card-header{
- color: red;
+ color: rgb(247, 234, 234);
  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
- font-size: 1.2em;
+ font-size: 1.5em;
+ font-weight: bolder;
 }
 
 
@@ -130,7 +133,7 @@
     padding: 12px 16px;
     background-color: white;
     cursor: pointer;
-    width: 24.5%;
+    width: 24.4%;
     margin: 0 auto;
     overflow: hidden;
     text-overflow: clip;
@@ -263,6 +266,10 @@
       padding:10px;
       box-shadow: 8px 8px;
   }
+  .aboutmeBlock{
+    width: 49%;
+  }
+  
 
 }
 @media only screen and (max-width:578px){
@@ -279,7 +286,8 @@
     box-shadow: 5px 5px;
   }
   .aboutmeBlock{
-    width: 45%;
+    width: 90%;
+    height: 140px;
   }
   .contact_icon i.fa, .contact_iconi.fas, .contact_icon i.fab {
     font-size: 2rem;
