@@ -163,25 +163,33 @@
     top: 0px;
     left: 0px;
     box-shadow: 5px 5px red;
-    background: #9BC1BC; 
-    font-size: 1.2em;
-    color: #E31B6D;
+    background: linear-gradient(green, yellow, rgb(23, 190, 23));
     width: 100%;
     height:100%;
+    padding: 10px;
+    font-weight: bolder;
+  }
+  .project_des h4{
+    font-size: 1.8rem;
+    color:yellow;
+  }
+  .project_des a{
+    color:yellow;
   }
 
   .project_des_full{
-    text-align: left;
-    height: 60%;
+    color: black;
+    text-align: justify;
+    height: 70%;
     width: 100%;
-    overflow: auto;
+    overflow: hidden;
     padding: 10px;
   }
   
 
   .project_footer{
     position: relative;
-    height: 200px;
+    height: 300px;
     text-align: center;
     color: white;
     text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
@@ -191,7 +199,7 @@
     position: absolute;
     bottom: 0;
     background-color: chartreuse;
-    height: 43%;
+    height: 33%;
     width: 100%;
     overflow: hidden;
     margin: 0 auto;
@@ -212,13 +220,15 @@
 
   .btn2:hover{
       color: white;
-      background-color: #E31B6D
+      background-color: #E31B6D;
   }
 
   .icon_img{
-    font-size:40px;
+    font-size:30px;
   }
-
+  /* .porject-link{
+    height: 200px;
+  } */
 
   /* Tech skill  here */
 
