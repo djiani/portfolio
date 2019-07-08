@@ -189,11 +189,15 @@
 
   .project_footer{
     position: relative;
-    height: 300px;
+    height: 250px;
     text-align: center;
     color: white;
     text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
 
+  }
+  .project_footer h4{
+    font-size: 1.8rem;
+    font-weight: bolder;
   }
   .tech_skill{
     position: absolute;
