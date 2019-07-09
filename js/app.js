@@ -12,10 +12,12 @@ for (var i = 0; i < btns.length; i++) {
   });
 }
 
-$(".column").hover(function(event){
-    const index= $(this).attr("data-index");
-    $(".show"+index).toggle("fade");
-});
+// $(".column").hover(function(event){
+//     const index= $(this).attr("data-index");
+//     $(".show"+index).toggle("fade");
+// });
+
+
 const menuBar = ["aboutMe", "portfolio", "skills", "contact" ]
 $(".aboutMe").click(function(event){
   menuBar.map(function(menu){

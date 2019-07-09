@@ -142,6 +142,7 @@
     margin: 0 auto;
     overflow: hidden;
     text-overflow: clip;
+    border-style: 2px; 
   }
   
   /* Add a grey background color on mouse-over */
@@ -293,6 +294,10 @@
 
 }
 @media only screen and (max-width:578px){
+.masterHeader{
+  height: 130vh;
+}
+
   .column{
     width: 100%;
   }
